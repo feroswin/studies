@@ -11,7 +11,7 @@ int main()
 	float a, b, c;
 	cout << "Введите a,b,c";
 	cin >> a >> b >> c;
-	if (a >= b && b >= c && c <= a && c <= b) {
+	if (a >= b && b >= c) {
 		a *= 2;
 		b *= 2;
 		c *= 2;
