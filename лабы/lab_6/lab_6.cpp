@@ -27,7 +27,7 @@ void main()
 		x += 2 * h;
 	}
 	s2 *= 4;
-	s = s1 + s2 + a * sin(a) + b * sin(b);
+	s = s1 + s2;
 	res = (b - a) * s / (6 * n);
 	cout << res;
 }
