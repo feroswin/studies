@@ -6,7 +6,7 @@ using namespace std;
 void main() 
 {
 	setlocale(LC_ALL, "RUS");
-	float a, b, h, x, s1 = 0, s2 = 0, s, res;
+	float a, b, h, x, s1 = 0, s2 = 0, s, res, y=0;
 	int i, n;
 	cout << "Введите n" << endl;
 	cin >> n;
@@ -29,5 +29,11 @@ void main()
 	s2 *= 4;
 	s = s1 + s2;
 	res = (b - a) * s / (6 * n);
-	cout << res;
+	cout << "Интеграл по формуле Симпсона = " << res << endl;
+
+	h = (b - a) / n;
+	for (x = a + h; x < b; x += h)
+		y += (M_PI - x) * sin(x);
+	y *= h;
+	cout << "Интеграл по формуле трапеции = " << y << endl;
 }
