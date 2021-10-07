@@ -28,7 +28,7 @@ void main()
 		}
 		cout << "\n " << setprecision(4) << setw(10) << x
 			<< setprecision(4) << setw(10) << s
-			<< setprecision(4) << setw(10) << s
+			<< setprecision(4) << setw(10) << sin(x)/x
 			<< setw(10) << n;
 	}
 }
