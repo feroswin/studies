@@ -34,6 +34,7 @@ void main()
 	h = (b - a) / n;
 	for (x = a + h; x < b; x += h)
 		y += (M_PI - x) * sin(x);
+	y += (M_PI - a) * sin(a) + (M_PI - b) * sin(b);
 	y *= h;
 	cout << "Интеграл по формуле трапеции = " << y << endl;
 }
