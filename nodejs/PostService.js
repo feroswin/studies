@@ -1,36 +1,33 @@
-import Post from './Post.js'
+import Post from './Post.js';
+import FileService from './FileService.js';
 
 class PostService {
-    async create(post){
-            const createdPost = await Post.create(post)
-            return createdPost
+    async create(post, picture){
+        const fileName = FileService.saveFile(picture)
+        return await Post.create({...post, picture: fileName});
     }
     async getAll(){
-            const posts = await Post.find()
-            return posts
+        return await Post.find();
 
     }
     async getOne(id){
-            if (!id) {
-                throw new Error("Invalid id")
-            }
-            const post = await Post.findById(id)
-            return post
+        if (!id) {
+            throw new Error("Invalid id")
+        }
+        return await Post.findById(id);
     }
     async update(post){
-            if (!post._id) {
-                throw new Error("Invalid id")
-            }
-            const updatedPost = await Post.findByIdAndUpdate(post._id, post, {new: true})
-            return updatedPost
+        if (!post._id) {
+            throw new Error("Invalid id")
+        }
+        return await Post.findByIdAndUpdate(post._id, post, {new: true});
     }
     async delete(id){
-            if (!id) {
-                throw new Error("Invalid id")
-            }
-            const deletedPost = await Post.findByIdAndDelete(id)
-            return deletedPost
+        if (!id) {
+            throw new Error("Invalid id")
+        }
+        return await Post.findByIdAndDelete(id);
     }
 }
 
-export default new PostService()
+export default new PostService();
