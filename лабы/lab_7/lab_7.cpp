@@ -19,7 +19,7 @@ void main()
 	cin >> n;
 	for (i = 0; i < n; i++)
 	{
-		a[i] = rand() % 9 - 1;
+		a[i] = rand() % 9/2.;
 		cout << "a[" << i << "]=" << a[i] << endl;                        /* Ввод элементов массива до n */
 	}
 	for (i = 0; i < n; i++)
