@@ -4,14 +4,15 @@ import router from './Router.js'
 import fileUpload from 'express-fileupload'
 
 const PORT = 5000;
-const DB_URL = `mongodb+srv://user:user@cluster0.f5tie.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`
+const DB_URL = `mongodb+srv://user:user@cluster0.ybntb.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`
 
 const app = express();
 
 app.use(express.json())
 app.use(express.static('static'))
 app.use(fileUpload({}))
-app.use('/api', router)
+app.use('/auth', router)
+
 
 async function startApp() {
     try {

@@ -132,9 +132,8 @@ namespace lab16 {
 			this->label3->AutoSize = true;
 			this->label3->Location = System::Drawing::Point(112, 183);
 			this->label3->Name = L"label3";
-			this->label3->Size = System::Drawing::Size(35, 13);
+			this->label3->Size = System::Drawing::Size(0, 13);
 			this->label3->TabIndex = 6;
-			this->label3->Text = L"label3";
 			// 
 			// MyForm
 			// 

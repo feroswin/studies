@@ -60,7 +60,7 @@ class AuthController{
             const users = await User.find()
             res.json(users)
         } catch (e){
-
+            res.status(400).json({message:'User not found'})
         }
 
     }
