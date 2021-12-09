@@ -169,6 +169,7 @@ namespace lab19 {
 			this->button3->TabIndex = 4;
 			this->button3->Text = L"Выход";
 			this->button3->UseVisualStyleBackColor = true;
+			this->button3->Click += gcnew System::EventHandler(this, &MyForm::button3_Click);
 			// 
 			// button2
 			// 
@@ -262,6 +263,9 @@ namespace lab19 {
 			s += a[i];
 		if (checkBox1->Checked == true) this->textBox3->Text = Convert::ToString(max);
 		if (checkBox2->Checked == true) this->textBox4->Text = Convert::ToString(s);
+	}
+	private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e) {
+		exit(0);
 	}
 };
 }
