@@ -6,12 +6,13 @@ namespace lab_2
     {
         static void Main(string[] args)
         {
-            int time, hours, minutes;
-            Console.Write("Введите количество минут ");
-            time = Convert.ToInt32(Console.ReadLine());
-            hours = time / 60;
-            minutes = time % 60;
-            Console.WriteLine($"Время в необходимом формате {hours} ч {minutes} мин");
+            double volume, a, h;
+            Console.WriteLine("Введите высоту прямоугольного параллелепипеда");
+            h = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Введите сторону куба");
+            a = Convert.ToDouble(Console.ReadLine());
+            volume = a * a * (a-h);
+            Console.WriteLine($"Объем полученной фигуры равен {volume} кубических единиц");
             Console.ReadKey();
         }
     }
