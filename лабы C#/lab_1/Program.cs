@@ -6,15 +6,17 @@ namespace lab_1
     {
         static void Main(string[] args)
         {
-            double z1, z2, x, y;
-            Console.Write("Введите число x=");
-            x = Convert.ToDouble(Console.ReadLine());
-            Console.Write("Введите число y=");
-            y = Convert.ToDouble(Console.ReadLine());
-            z1 = Math.Pow(Math.Cos(x), 4.0) + Math.Pow(Math.Sin(y), 2.0) + (1.0 / 4.0) * Math.Pow(Math.Sin(2 * x), 2.0) - 1.0;
-            Console.WriteLine($"result z1= {z1}");
-            z2 = Math.Sin(x + y) * Math.Sin(y - x);
-            Console.WriteLine($"result z2= {z2}");
+            double z1, z2, alpha, beta;
+            Console.Write("Введите число alpha=");
+            alpha = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Введите число beta=");
+            beta = Convert.ToDouble(Console.ReadLine());
+            alpha = alpha / 180.0 * Math.PI;
+            beta = beta / 180.0 * Math.PI;
+            z1 = Math.Pow(Math.Cos(alpha) - Math.Cos(beta), 2.0) - Math.Pow(Math.Sin(alpha)-Math.Sin(beta), 2.0);
+            z2 = -4.0 * Math.Pow(Math.Sin((alpha - beta) / 2.0), 2.0) * Math.Cos(alpha + beta);
+            Console.WriteLine($"result z1 = {z1}");
+            Console.WriteLine($"result z2 = {z2}");
             Console.ReadKey();
         }
     }
