@@ -1,4 +1,7 @@
 ﻿using System;
+using static System.Convert;
+using static System.Console;
+using static System.Math;
 
 namespace lab_2
 {
@@ -6,14 +9,17 @@ namespace lab_2
     {
         static void Main(string[] args)
         {
-            double volume, a, h;
-            Console.WriteLine("Введите высоту прямоугольного параллелепипеда");
-            h = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Введите сторону куба");
-            a = Convert.ToDouble(Console.ReadLine());
-            volume = a * a * (a-h);
-            Console.WriteLine($"Объем полученной фигуры равен {volume} кубических единиц");
-            Console.ReadKey();
+            double a, b, c, angle;
+            Write("Введите сторону a= ");
+            a = ToDouble(ReadLine());
+            Write("Введите сторону b= ");
+            b = ToDouble(ReadLine());
+            Write("Введите сторону c= ");
+            c = ToDouble(ReadLine());
+            angle = Acos((a * a + c * c - b * b) / (2 * a * c));
+            angle *= 180 / PI;
+            Write($"Угол a (в градусах) равен {angle:###.##}");
+            ReadKey();
         }
     }
 }
