@@ -18,7 +18,7 @@ namespace lab_7
             x = a;
             h = (b - a) / 2 / n;
 
-            for(i = 0; i < n-1; i++)
+            for(i = 0; i < n; i++)
             {
                 Sp += (x * Pow(Log(x),2));
                 x += 2 * h;
@@ -41,7 +41,7 @@ namespace lab_7
                 x += 2 * h;
             }
             s2 *= 4;
-            Ss = s1 + s2;
+            Ss = a * Pow(Log(a), 2) + b * Pow(Log(b), 2) + s1 + s2;
             res = (b - a) * Ss / (6 * n);
             Write($"Интеграл по формуле Симпсона = {res:0.####}");
         }
