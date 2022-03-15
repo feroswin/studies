@@ -99,3 +99,7 @@ input[type="button"]:hover {
 .fa-brands{
     cursor: pointer;
 }
+
+form{
+    margin-top: 15px;
+}
