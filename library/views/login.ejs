@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/public/css/style.css">
+    <script src="https://kit.fontawesome.com/4c3aeacbc4.js" crossorigin="anonymous"></script>
+    <title>Title</title>
+</head>
+<body>
+
+<div class="card">
+    <img class="card-photo" src="../public/img/man.jpg" alt="аватарка">
+    <h1 class="card-title">Виталий Иванов</h1>
+    <form method="post" action="">
+        <input type="email" name="email" id="emailid" placeholder="Введите логин">
+        <input type="password" name="password" placeholder="Введите пароль">
+        <div class="btn">
+            <input type="submit" value="Войти">
+        </div>
+    </form>
+    <form method="get" action="/auth/registration">
+        <input class="btn" type="submit" value="Регистрация" id="btnRegistration">
+    </form>
+    <a class="re_password" href="#">Восстановить пароль</a>
+    <div class="social">
+        <i class="fa-brands fa-vk"></i>
+        <i class="fa-brands fa-facebook-square"></i>
+        <i class="fa-brands fa-google"></i>
+    </div>
+</div>
+</body>
+</html>
