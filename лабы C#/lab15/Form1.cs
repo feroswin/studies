@@ -32,13 +32,13 @@ namespace lab15
                 {
                     result = De * De + Mn * Mn * (-1);
                     result1 = 2 * De * Mn;
-                    label6.Text = result.ToString("f2") + " + " + result1.ToString("f2") + "i"; 
+                    label6.Text = result.ToString("0.##") + " + " + result1.ToString("0.##") + "i"; 
                 } 
                 else
                 {
                     result = De * De + Mn * Mn * (-1);
                     result1 = 2 * De * Mn;
-                    label6.Text = result.ToString("f2") + " - " + result1.ToString("f2") + "i";
+                    label6.Text = result.ToString("0.##") + " - " + result1.ToString("0.##") + "i";
                 }
             } catch (FormatException ex)
             {
