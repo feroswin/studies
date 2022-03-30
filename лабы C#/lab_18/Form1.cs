@@ -67,23 +67,18 @@ namespace lab_18
             dataGridViewArrayC.RowCount = 1;
             for (int i = 0; i < n; i++)
                 if (mas[i] > 0)
-                    for (int j = k; j < n; j++)
-                    {
-                        dataGridViewArrayC[j, 0].Value = mas[i];
-                        k++;
-                        break;
-                    }
+                { dataGridViewArrayC[k, 0].Value = mas[i];
+                    k++;
+                }
             k = 0;
             dataGridViewArrayM.ColumnCount = n;
             dataGridViewArrayM.RowCount = 1;
             for (int i = 0; i < n; i++)
                 if (mas[i] < 0)
-                    for (int j = k; j < n; j++)
-                    {
-                        dataGridViewArrayM[j, 0].Value = mas[i];
-                        k++;
-                        break;
-                    }
+                {
+                    dataGridViewArrayM[k, 0].Value = mas[i];
+                    k++;
+                }
         }
 
 
