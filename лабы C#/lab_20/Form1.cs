@@ -22,11 +22,9 @@ namespace lab_20
         public void Print(int x1, int y1,int W, int H, int single1, int single2)
         {
             Random rnd = new Random();
-            int col = rnd.Next();
             Color color = Color.FromArgb(rnd.Next(255), rnd.Next(255), rnd.Next(255));
-            SolidBrush brush = new SolidBrush(color);
             Pen pen = new Pen(color, 1.7f);
-            gr.FillPie(brush, x1, y1, W, H, single1, single2);
+            gr.DrawArc(pen, x1, y1, W, H, single1, single2);
         }
 
 
