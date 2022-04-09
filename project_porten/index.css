@@ -1,0 +1,564 @@
+@import url('http://fonts.cdnfonts.com/css/post-no-bills-jaffna');
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDGothic&family=BIZ+UDPMincho&family=League+Script&family=PT+Sans:ital@0;1&family=Poppins:ital,wght@1,200&family=Roboto:ital,wght@0,400;1,100&family=Rubik+Microbe&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  max-width: 1980px;
+}
+
+.container {
+  display: block;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background: #0F0F0F;
+  height: 80px;
+}
+
+.navbar-logo {
+  margin-left: 220px;
+  margin-top: 10px
+}
+
+.logo {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 105px;
+  height: 70px;
+  font-family: 'Post No Bills Jaffna', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-items {
+  margin-right: 23%;
+  text-transform: uppercase;
+  line-height: 18px;
+  font-size: 0;
+}
+
+.nav-item {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #969696;
+  width: 130px;
+  height: 80px;
+  transition: ease .4s;
+  font-size: 14px;
+}
+
+.nav-item:hover {
+  background: #1F1F1F;
+  color: white;
+}
+
+
+.content-one {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(Rectangle\ 3.png);
+  height: 810px;
+  cursor: default;
+}
+
+.cube {
+  display: block;
+  width: 320px;
+  height: 320px;
+  border: 4px solid white;
+}
+
+.line-cube {
+  margin: 0;
+  width: 180px;
+  margin-left: 70px;
+}
+
+.title p{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 5px;
+  color: white;
+  width: 320px;
+  height: 70px;
+  font-family: 'Post No Bills Jaffna', sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 95px;
+}
+
+.subtitle p {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: 'PT Sans';
+  text-transform: uppercase;
+  font-size: 22px;
+  font-style: normal;
+  line-height: 28px;
+  margin-top: 0;
+  margin-top: 5px;
+}
+
+.content-text {
+  margin-top: 50px;
+  color: white;
+  width: 730px;
+  height: 100px;
+  text-align: center;
+  font-family: 'PT Sans';
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.content-two {
+  display: flex;
+  width: 100%;
+  height: 730px;
+}
+
+.season{
+  width: 1040px;
+  margin: 0;
+  padding: 0;
+}
+
+.season {
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 70px;
+  align-items: center;
+}
+
+.title-season {
+  color: #fff;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Playfair Display';
+  line-height: 42px;
+  font-weight: 600;
+}
+
+.line-season {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 120px;
+}
+
+.watches {
+  display: flex;
+  font-family: 'PT Sans';
+  font-size: 16px;
+  margin-left: 50px;
+}
+
+.watch {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50px;
+  background: #191B1C;
+  width: 260px;
+  height: 325px;
+  color: #fff;
+}
+
+.watch img {
+  width: 215px;
+  height: 214px;
+}
+
+.title-watch p{
+  color: rgb(233, 233, 233);
+  font-family: 'Playfair Display';
+  font-size: 18px;
+  line-height: 21px;
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-weight: normal;
+}
+
+.title-watch p:last-child {
+  color: #D0D0D0;
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.new-collection {
+  background-image: url(Rectangle\ 8.svg);
+  display: flex;
+  justify-content:flex-end;
+  align-items:center;
+  flex-direction:column;
+  width: 880px;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 100px;
+}
+
+.title-content-two {
+  color: #fff;
+  font-family: 'Playfair Display';
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.rectangle p {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #fff;
+  margin-top: 13px;
+}
+
+.rectangle {
+  border: 1.5px solid white;
+  width: 140px;
+  cursor: default;
+}
+
+.rectangle:hover {
+  background: rgba(129, 129, 129, 0.212);
+}
+
+.line-collection {
+  width: 120px;
+  margin-bottom: 35px;
+}
+
+.content-three {
+  display: flex;
+  height: 600px;
+}
+
+.blazer {
+  width: 880px;
+  height: 600px;
+  background-image: url(Rectangle\ 9.svg);
+}
+
+.collection-2018 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 1040px;
+  height: 600px;
+  background: #000;
+}
+
+.title-collection-2018 {
+  margin-top: 70px;
+  color: #fff;
+  font-family: 'Playfair Display';
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.collection-2018-content {
+  color: #fff;
+  text-align: center;
+  width: 450px;
+  height: 217px;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.rectangle-view-collection {
+  padding: 10px;
+  margin-top: 20px;
+  border: 1.5px solid white;
+  cursor: default;
+}
+
+.rectangle-view-collection:hover {
+  background: rgba(129, 129, 129, 0.212);
+}
+
+.rectangle-view-collection p {
+  color: #fff;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin: 0 10px;
+}
+
+.section-arrivals {
+  width: 100%;
+  height: 1290px;
+  background-color: #000;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title-arrivals {
+  margin-top: 90px;
+  margin-bottom: 10px;
+  font-family: 'Playfair Display';
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.line-section-arrivals {
+  width: 120px;
+  margin-bottom: 35px;
+}
+
+.table-watches {
+  display: table;
+  color: #fff;
+}
+
+.table-watches-row:first-child {
+  margin-top: 40px;
+}
+
+.table-watches-row {
+  display: row;
+  margin-top: 30px;
+}
+
+.table-watches-cell {
+  display: table-cell;
+}
+
+.our-brands {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 362px;
+  background: #0F0F0F;
+  color: #fff;
+}
+.title-brands p{
+  font-family: 'Playfair Display';
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+.line-brands {
+  margin-top: 30px;
+  width: 120px;
+  margin-bottom: 35px;
+}
+
+.brands {
+  display: flex;
+  margin-top: 10px;
+}
+
+.img-brand img{
+  width: 255px;
+  height: 94px;
+}
+
+.img-brand {
+  margin-right: 30px;
+}
+
+footer {
+  width: 100%;
+  height: 400px;
+  background-image: url(Rectangle\ 15.svg);
+  color: #fff;
+}
+
+.footer {
+  padding-top: 100px;
+  display: flex;
+  justify-content:flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+  padding-left: 22%;
+  cursor: default;
+}
+
+.info-shop {
+  width: 350px;
+  margin-right: 20px;
+}
+
+.title-info-shop p{
+  margin:0;
+  font-family: 'Playfair Display';
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.content-info-shop {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.title-categories p {
+  margin:0;
+  font-family: 'Playfair Display';
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+}
+
+.rectangle-category-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 15px;
+}
+
+
+.rectangle-category {
+  background: #0F0F0F;
+  color: #D0D0D0;
+  text-transform: lowercase;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  margin-right: 25px;
+}
+
+.rectangle-category:hover {
+  background: rgba(129, 129, 129, 0.589);
+  cursor:pointer;
+}
+
+.rectangle-category p {
+  margin: 10px 12px;
+}
+
+.mailing-list {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.title-mailing-list {
+  margin:0;
+  font-family: 'Playfair Display';
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.title-mailing-list p {
+  margin: 0;
+}
+
+.content-mailing-list {
+  width: 350px;
+}
+
+.input-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+
+.input-mailing-list input{
+  background: rgba(141, 141, 141, 0.4);
+  border: 0;
+  width: 190px;
+  height: 40px;
+  outline: 0;
+  text-indent: 10px;
+}
+
+.input-mailing-list input::placeholder {
+  color: rgba(255, 255, 255, 0.623);
+}
+
+.btn-submit-mailing-list button{
+  margin: 0;
+  text-align: center;
+  width: 140px;
+  height: 42px;
+  border-radius: 0;
+  border: 0;
+  background: #0F0F0F;
+  color: #fff;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 0;
+  cursor: pointer;
+}
+
+.btn-submit-mailing-list button:hover {
+  background: rgba(129, 129, 129, 0.212);
+}
