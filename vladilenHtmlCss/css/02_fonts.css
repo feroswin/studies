@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Script&family=Roboto:ital,wght@0,400;1,100&display=swap');
+
+body{
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif */
+  /* font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+   */
+
+  font: normal 30px 'Roboto', sans-serif;
+
+  font-style: italic;
+  line-height: 1.6em;
+  font-weight: 900;
+  /* text-decoration: line-through; */
+}

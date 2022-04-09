@@ -1,0 +1,44 @@
+
+/*Задает стили абсолютно всем элементам */
+* {
+
+}
+
+
+/* Tag Name */
+body {
+  background: #eee;
+}
+
+
+/* Class */
+.card {
+  padding: 10px;
+  background: #fff;
+  /* margin-bottom: 10px; */
+}
+
+.card p {
+  font-size: 14px;
+}
+
+.html{
+  background: orange;
+  color: #fff;
+}
+
+.css{
+  background: blue;
+  color: #fff;
+}
+
+
+/* Id */
+#header {
+  background: #ddd;
+  padding: 10px;
+}
+
+#header, .card{
+  margin-bottom: 10px;
+}
