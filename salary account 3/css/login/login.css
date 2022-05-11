@@ -1,0 +1,968 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDGothic&family=BIZ+UDPMincho&family=League+Script&family=Montserrat:wght@100;500;600;700;900&family=PT+Sans:ital@0;1&family=Pacifico&family=Poiret+One&family=Poppins:ital,wght@0,100;1,200&family=Roboto:ital,wght@0,400;0,700;1,100&family=Rubik+Microbe&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  display: flex;
+    align-items: flex-end;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+
+.photo {
+  width: 51%;
+}
+
+.login-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+  width: 50%;
+}
+
+h1 {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 35px;
+margin: 0;
+width: 100%;
+text-align: center;
+}
+
+.subtitle {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 19px;
+margin: 15px 0;
+width: 100%;
+text-align: center;
+}
+
+h3 {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 19px;
+margin: 15px 0;
+}
+
+form {
+  width:40.5%
+}
+
+input {
+  width: 350px;
+  height: 50px;
+  padding-left: 20px;
+  border: 1px solid #E8E8E8;
+  border-radius: 5px;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid #00D285;
+}
+
+.input-submit {
+  width: 100%;
+  background: #00D285;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: .5px;
+color:#fff;
+}
+
+.form-option {
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.wrap-checkbox {
+  display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+}
+
+.checkbox {
+  width: 20px;
+}
+
+.checkbox:focus {
+  background-color: #00D285;
+}
+
+label {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 19px;
+  margin-left: 5px;
+}
+
+.forgot-pswd {
+  width: 50%;
+  text-align: right;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 19px;
+}
+
+.create-account {
+  display: flex;
+  width: 76%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.text-create {
+  width: 34%;
+  text-align: center;
+}
+
+.create-account a {
+  margin-left: 5px;
+}
+
+@media (min-width: 320px) {
+  section {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+  }
+
+  .login-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    width: 85%;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  input {
+    width: 95.5%;
+    height: 50px;
+    padding-left: 10px;
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+  }
+
+  .form-option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .wrap-checkbox {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 45%;
+  }
+
+  label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    margin-left: 5px;
+  }
+
+  .create-account {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .text-create {
+    width: 46%;
+    text-align: center;
+  }
+
+  .create-account a {
+    font-size: 14px;
+  }
+
+  h3 {
+    font-size: 12px;
+  }
+
+  .input-submit {
+    width: 98.5%;
+    background: #00D285;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: .5px;
+    color: #fff;
+  }
+
+}
+
+@media (min-width: 576px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  section {
+    display: flex;
+      align-items: flex-end;
+      width: 100%;
+      height: auto;
+      justify-content: center;
+  }
+  
+  .photo {
+    width: 51%;
+  }
+  
+  .login-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    width: 50%;
+  }
+  
+  h1 {
+    font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 35px;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  }
+  
+  .subtitle {
+    font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 19px;
+  margin: 15px 0;
+  width: 100%;
+  text-align: center;
+  }
+  
+  h3 {
+    font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 19px;
+  margin: 15px 0;
+  }
+  
+  input {
+    width: 95.5%;
+    height: 50px;
+    padding-left: 10px;
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+  }
+  
+  input:focus {
+    outline: none;
+    border: 2px solid #00D285;
+  }
+
+  form {
+    /* width:40.5% */
+    width: 90.5%;
+  }
+  
+  .input-submit {
+    width: 100%;
+    background: #00D285;
+    font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: .5px;
+  color:#fff;
+  }
+  
+  .form-option {
+    display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+  }
+  
+  .wrap-checkbox {
+    display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      width: 50%;
+  }
+  
+  .checkbox {
+    width: 20px;
+  }
+  
+  .checkbox:focus {
+    background-color: #00D285;
+  }
+  
+  label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+    margin-left: 5px;
+  }
+  
+  .forgot-pswd {
+    width: 50%;
+    text-align: right;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+  }
+  
+  .create-account {
+    display: flex;
+    width: 76%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .text-create {
+    width: 34%;
+    text-align: center;
+  }
+  
+  .create-account a {
+    margin-left: 5px;
+  }
+}
+
+
+@media (min-width: 768px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  section {
+    display: flex;
+      align-items: flex-end;
+      width: 100%;
+      height: auto;
+      justify-content: center;
+  }
+  
+  .photo {
+    width: 51%;
+  }
+  
+  .login-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    width: 50%;
+  }
+  
+  h1 {
+    font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 35px;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  }
+  
+  .subtitle {
+    font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 19px;
+  margin: 15px 0;
+  width: 100%;
+  text-align: center;
+  }
+  
+  h3 {
+    font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 19px;
+  margin: 15px 0;
+  }
+  
+  input {
+    width: 95.5%;
+    height: 50px;
+    padding-left: 10px;
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+  }
+  
+  input:focus {
+    outline: none;
+    border: 2px solid #00D285;
+  }
+
+  form {
+    width:90.5%
+  }
+  
+  .input-submit {
+    width: 100%;
+    background: #00D285;
+    font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: .5px;
+  color:#fff;
+  }
+  
+  .form-option {
+    display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+  }
+  
+  .wrap-checkbox {
+    display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      width: 50%;
+  }
+  
+  .checkbox {
+    width: 20px;
+  }
+  
+  .checkbox:focus {
+    background-color: #00D285;
+  }
+  
+  label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+    margin-left: 5px;
+  }
+  
+  .forgot-pswd {
+    width: 50%;
+    text-align: right;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+  }
+  
+  .create-account {
+    display: flex;
+    width: 76%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .text-create {
+    width: 34%;
+    text-align: center;
+  }
+  
+  .create-account a {
+    margin-left: 5px;
+  }
+}
+
+
+@media (min-width: 992px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  section {
+    display: flex;
+      align-items: flex-end;
+      width: 100%;
+      height: auto;
+      justify-content: center;
+  }
+  
+  .photo {
+    width: 51%;
+  }
+  
+  .login-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    width: 50%;
+  }
+  
+  h1 {
+    font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 35px;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  }
+  
+  .subtitle {
+    font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 19px;
+  margin: 15px 0;
+  width: 100%;
+  text-align: center;
+  }
+  
+  h3 {
+    font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 19px;
+  margin: 15px 0;
+  }
+  
+  input {
+    width: 95.5%;
+    height: 50px;
+    padding-left: 10px;
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+  }
+  
+  input:focus {
+    outline: none;
+    border: 2px solid #00D285;
+  }
+
+  form {
+    width:65.5%
+  }
+  
+  .input-submit {
+    width: 100%;
+    background: #00D285;
+    font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: .5px;
+  color:#fff;
+  }
+  
+  .form-option {
+    display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+  }
+  
+  .wrap-checkbox {
+    display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      width: 50%;
+  }
+  
+  .checkbox {
+    width: 20px;
+  }
+  
+  .checkbox:focus {
+    background-color: #00D285;
+  }
+  
+  label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+    margin-left: 5px;
+  }
+  
+  .forgot-pswd {
+    width: 50%;
+    text-align: right;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+  }
+  
+  .create-account {
+    display: flex;
+    width: 76%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .text-create {
+    width: 34%;
+    text-align: center;
+  }
+  
+  .create-account a {
+    margin-left: 5px;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  section {
+    display: flex;
+      align-items: flex-end;
+      width: 100%;
+      height: auto;
+      justify-content: center;
+  }
+  
+  .photo {
+    width: 51%;
+  }
+  
+  .login-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    width: 50%;
+  }
+  
+  h1 {
+    font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 35px;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  }
+  
+  .subtitle {
+    font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 19px;
+  margin: 15px 0;
+  width: 100%;
+  text-align: center;
+  }
+  
+  h3 {
+    font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 19px;
+  margin: 15px 0;
+  }
+  
+  input {
+    width: 95.5%;
+    height: 50px;
+    padding-left: 10px;
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+  }
+  
+  input:focus {
+    outline: none;
+    border: 2px solid #00D285;
+  }
+
+  form {
+    width:50.5%
+  }
+  
+  .input-submit {
+    width: 100%;
+    background: #00D285;
+    font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: .5px;
+  color:#fff;
+  }
+  
+  .form-option {
+    display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+  }
+  
+  .wrap-checkbox {
+    display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      width: 50%;
+  }
+  
+  .checkbox {
+    width: 20px;
+  }
+  
+  .checkbox:focus {
+    background-color: #00D285;
+  }
+  
+  label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+    margin-left: 5px;
+  }
+  
+  .forgot-pswd {
+    width: 50%;
+    text-align: right;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+  }
+  
+  .create-account {
+    display: flex;
+    width: 76%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .text-create {
+    width: 34%;
+    text-align: center;
+  }
+  
+  .create-account a {
+    margin-left: 5px;
+  }
+}
+
+
+@media (min-width: 1400px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  section {
+    display: flex;
+      align-items: flex-end;
+      width: 100%;
+      height: auto;
+      justify-content: center;
+  }
+  
+  .photo {
+    width: 51%;
+  }
+  
+  .login-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    width: 50%;
+  }
+  
+  h1 {
+    font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 35px;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  }
+  
+  .subtitle {
+    font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 19px;
+  margin: 15px 0;
+  width: 100%;
+  text-align: center;
+  }
+  
+  h3 {
+    font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 19px;
+  margin: 15px 0;
+  }
+  
+  input {
+    width: 95.5%;
+    height: 50px;
+    padding-left: 10px;
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+  }
+  
+  input:focus {
+    outline: none;
+    border: 2px solid #00D285;
+  }
+
+  form {
+    width:40.5%
+  }
+  
+  .input-submit {
+    width: 100%;
+    background: #00D285;
+    font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: .5px;
+  color:#fff;
+  }
+  
+  .form-option {
+    display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+  }
+  
+  .wrap-checkbox {
+    display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      width: 50%;
+  }
+  
+  .checkbox {
+    width: 20px;
+  }
+  
+  .checkbox:focus {
+    background-color: #00D285;
+  }
+  
+  label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+    margin-left: 5px;
+  }
+  
+  .forgot-pswd {
+    width: 50%;
+    text-align: right;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+  }
+  
+  .create-account {
+    display: flex;
+    width: 76%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .text-create {
+    width: 34%;
+    text-align: center;
+  }
+  
+  .create-account a {
+    margin-left: 5px;
+  }
+}
