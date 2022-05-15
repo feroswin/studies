@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDGothic&family=BIZ+UDPMincho&family=League+Script&family=Montserrat:wght@100;500;600;700;900&family=PT+Sans:ital@0;1&family=Pacifico&family=Poiret+One&family=Poppins:ital,wght@0,100;1,200&family=Raleway:wght@300;600;700;800;900&family=Roboto:ital,wght@0,400;0,700;1,100&family=Rubik+Microbe&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+header {
+  background: #000;
+  width: 100%;
+  height: 600px;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  width: 35px;
+  height: 32px;
+}
+
+.wrapper_navbar {
+  padding: 20px 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navbar {
+  display: flex;
+  justify-content: right;
+  margin: 0;
+  width: 100%;
+  list-style: none;
+  color: #fff;
+}
+
+.navbar_item {
+  margin-right: 3%;
+  width:10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar_item:hover {
+  background: #ffffff;
+  color: black;
+  border-radius: 15px;
+  border: none;
+  box-shadow: 0 0 20px 5px #00D285;
+}
+
+.link_nav {
+  color: #ffffff;
+  text-decoration: none;
+  width: 100%;
+  text-align: center;
+  font-family: Raleway, serif;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 15px;
+}
+
+.link_nav:hover {
+  color: black;
+}
+
+.navbar_item:last-child {
+  display: flex;
+  width: 10%;
+  padding: 0;
+}
+
+.btn-login {
+  width: 100%;
+  height: 100%;
+  background: #00D285;
+  border-radius: 15px;
+}
+
+
